@@ -1,0 +1,12 @@
+seed: 42
+epochs: 30
+batch_size: 2
+lr: 0.005
+weight_decay: 0.0005
+num_workers: 2
+pretrained: true        # start from COCO weights, fine-tune on your own images
+min_size: 800           # Mask R-CNN resizes the short side to this; masks are mapped back to full resolution
+max_size: 1333
+images_dir: dataset/images
+annotations: dataset/annotations/instances.json
+splits_dir: dataset/splits
