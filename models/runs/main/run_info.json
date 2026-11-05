@@ -1,0 +1,24 @@
+{
+  "config": {
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 2,
+    "lr": 0.005,
+    "weight_decay": 0.0005,
+    "num_workers": 2,
+    "pretrained": true,
+    "min_size": 800,
+    "max_size": 1333,
+    "images_dir": "dataset/images",
+    "annotations": "dataset/annotations/instances.json",
+    "splits_dir": "dataset/splits"
+  },
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "opencv": "4.14.0",
+  "python": "3.13.16",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "train_images": 56,
+  "val_images": 16
+}
