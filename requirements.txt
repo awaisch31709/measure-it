@@ -1,0 +1,10 @@
+# Versions pinned from the Colab training run (pip freeze). Colab used the CUDA 13 builds of torch/torchvision
+# (2.11.0+cu130 / 0.26.0+cu130); on a CPU-only PC the same version numbers from PyPI work for inference.
+matplotlib==3.10.0
+numpy==2.4.6
+opencv-python==5.0.0.93
+pycocotools==2.0.11
+PyYAML==6.0.3
+torch==2.11.0
+torchmetrics==1.9.0
+torchvision==0.26.0

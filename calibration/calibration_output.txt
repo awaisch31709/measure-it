@@ -1,0 +1,39 @@
+images found: 28  usable: 28  rejected: 0
+{
+  "images_used": 28,
+  "image_size_wh": [
+    1280,
+    960
+  ],
+  "rms_reprojection_error_px": 0.6769,
+  "per_image_error_px_mean": 0.6439,
+  "per_image_error_px_worst": {
+    "image": "calib_05.jpg",
+    "error": 1.1832
+  },
+  "camera_matrix": [
+    [
+      920.845,
+      0.0,
+      635.701
+    ],
+    [
+      0.0,
+      922.968,
+      474.672
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeffs_k1_k2_p1_p2_k3": [
+    0.201066,
+    -0.679792,
+    -0.00286,
+    -0.001312,
+    0.706842
+  ]
+}
+saved calibration/camera_params.npz

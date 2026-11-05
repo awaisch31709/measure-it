@@ -1,0 +1,11 @@
+{
+  "map_50": 1.0,
+  "map_50_95": 1.0,
+  "precision": 0.9412,
+  "recall": 1.0,
+  "mean_mask_iou": 0.9723,
+  "score_thr": 0.5,
+  "images": 16,
+  "split": "val",
+  "checkpoint": "models/runs/main/best.pt"
+}
