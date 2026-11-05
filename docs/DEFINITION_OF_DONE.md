@@ -13,7 +13,7 @@
 | [x] Raw vs undistorted errors side by side | same files, raw and undistorted columns |
 | [x] MO-1 target met, or missed with the reason written down | Missed: 3.7 mm mean error against a 2 mm target. Reason in docs/OBJECTIVES.md |
 | [x] Weights linked with SHA-256 in the README | [Release v1.0](https://github.com/awaisch31709/measure-it/releases/tag/v1.0) |
-| [ ] Recording under 5 minutes | Loom link: (to add) |
+| [x] Recording under 5 minutes (4:50) | Loom link: https://www.loom.com/share/7e1ebed843c249a9be46323fef108838|
 | [x] Everything I did not finish is listed below | below |
 
 ## Not finished
