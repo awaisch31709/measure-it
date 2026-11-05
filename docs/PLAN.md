@@ -34,4 +34,9 @@ Items 7 to 10 (speed/accuracy target, breaking condition, refusal threshold, dec
 
 ## Changes
 
-<Add a dated line here whenever the plan changes, and why.>
+- 2026-11-05: Labels were pre-generated with Segment Anything 3 inside CVAT (text prompt "calculator") and every one of the 80 polygons was then checked and corrected by hand in CVAT. Reason: time. SAM 3 is only a labelling aid; the measuring model is my own fine-tuned Mask R-CNN.
+- 2026-11-05: Photos 001-007 were taken before the marker was printed (calculator next to a ruler, no marker). They are kept for segmentation but cannot be measured.
+- 2026-11-05: Accuracy (item 5) uses the 22 held-out val/test photos that contain the marker, instead of new photos, because the calculator was not with me when I reached this step. Ground truth is one ruler measurement of the calculator: 161 x 80 mm (it matches the manufacturer's size). These photos were never used for training.
+- 2026-11-05: The command scales a full-resolution 4:3 phone photo down to the calibrated 1280 x 960 (and turns portrait photos to landscape), because K and the distortion terms only hold at the calibrated geometry.
+- 2026-11-05: Kept the marker-skew refusal at 0.02 after seeing the data: under 0.02 the mean error is 3.7 mm, above it errors reach 45 mm (measurement/results/skew_sweep.txt).
+- 2026-11-05: Items 7, 8 and 10 not attempted (time). Item 9 partly done: the skew threshold sweep above.
